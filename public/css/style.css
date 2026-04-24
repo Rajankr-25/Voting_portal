@@ -1,0 +1,123 @@
+/* Reset default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Heading */
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input */
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Candidate List */
+
+.candidate {
+    background: #f1f1f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Results */
+
+.result {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.logout-btn {
+
+    background-color: red;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.logout-btn:hover {
+
+    background-color: darkred;
+
+}
+
+.voter {
+
+    background: #f1f1f1;
+
+    margin: 10px 0;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+}
+
+button {
+
+    margin-top: 5px;
+
+}
+
+button:nth-child(2) {
+
+    background-color: orange;
+
+}
+
+button:nth-child(3) {
+
+    background-color: red;
+
+}
